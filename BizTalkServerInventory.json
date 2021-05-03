@@ -1,0 +1,28 @@
+﻿{
+  "$schema": "http://json.schemastore.org/BizTalkServerApplicationSchema",
+  "BizTalkAssemblies": [
+    {
+      "Name": "BizTalk.FaltFile.Demo.Project",
+      "Path": "bin\\BizTalk.FaltFile.Demo.Project.dll"
+    }
+  ],
+  "BindingsFiles": [
+    {
+      "Name": "Binding1",
+      "Path": "bindings\\Binding.xml"
+    }
+  ],
+  "Assemblies": [
+    
+    
+  ],
+  "PreProcessingScripts": [
+  ],
+  "PostProcessingScripts": [
+  ],
+  "Files": [
+  ],
+  "DeploymentSequence": [
+    "BizTalk.FaltFile.Demo.Project","Binding1"
+  ]
+}

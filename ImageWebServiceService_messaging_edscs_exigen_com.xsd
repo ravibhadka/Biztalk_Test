@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema targetNamespace="http://messaging.edscs.exigen.com" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation=".\ImageWebServiceService_schemas_xmlsoap_org_soap_encoding.xsd" namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+  <complexType name="InterfaceException">
+    <sequence />
+  </complexType>
+  <complexType name="MandatoryParameterNotSupplied">
+    <complexContent mixed="false">
+      <extension xmlns:q1="http://messaging.edscs.exigen.com" base="q1:InterfaceException">
+        <sequence />
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ApplicationException">
+    <complexContent mixed="false">
+      <extension xmlns:q2="http://messaging.edscs.exigen.com" base="q2:InterfaceException">
+        <sequence />
+      </extension>
+    </complexContent>
+  </complexType>
+</schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://image.messaging.edscs.exigen.com" targetNamespace="http://image.messaging.edscs.exigen.com" id="retrieveDocumentImageResponse" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation=".\ImageWebServiceService_image_messaging_edscs_exigen_com.xsd" />
+  <xs:element name="retrieveDocumentImageResponse">
+    <xs:annotation>
+      <xs:documentation>Wrapper element for message "retrieveDocumentImageResponse" of RPC operation "retrieveDocumentImage".</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="retrieveDocumentImageReturn" type="tns:ImageResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

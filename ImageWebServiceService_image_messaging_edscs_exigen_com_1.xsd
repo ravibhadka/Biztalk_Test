@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://image.messaging.edscs.exigen.com" targetNamespace="http://image.messaging.edscs.exigen.com" id="createImageRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation=".\ImageWebServiceService_image_messaging_edscs_exigen_com.xsd" />
+  <xs:element name="createImage">
+    <xs:annotation>
+      <xs:documentation>Wrapper element for message "createImageRequest" of RPC operation "createImage".</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="documentRequest" type="tns:CreateDocumentRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

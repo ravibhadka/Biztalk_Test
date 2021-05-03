@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://image.messaging.edscs.exigen.com" targetNamespace="http://image.messaging.edscs.exigen.com" id="createImageFromBLOBResponse" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="createImageFromBLOBResponse">
+    <xs:annotation>
+      <xs:documentation>Wrapper element for message "createImageFromBLOBResponse" of RPC operation "createImageFromBLOB".</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
